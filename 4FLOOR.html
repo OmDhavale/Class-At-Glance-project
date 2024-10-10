@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4FLOOR</title>
+    <style>
+     div#cell{
+        z-index:1;
+        position:absolute;
+        top:5px;
+        left: 5px;
+        width: 200px;
+        height: 40px;
+
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px;
+     }
+
+     div#lab403{
+        z-index:1;
+        position:absolute;
+        top:56px;
+        left: 5px;
+        width: 200px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px;
+     }
+
+     div#stairs{
+        z-index:1;
+        position:absolute;
+        top:317px;
+        left: 5px;
+        width: 120px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.497);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px;
+     }
+
+     div#lab402{
+        z-index:1;
+        position:absolute;
+        top:403px;
+        left: 5px;
+        width: 200px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px;
+     }
+
+     div#cr42{
+        z-index:1;
+        position:absolute;
+        top:489px;
+        left: 5px;
+        width: 240px;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+
+     div#staff{
+        z-index:1;
+        position:absolute;
+        top:489px;
+        left: 256px;
+        width: 40px;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: normal;
+         border-radius: 5px; 
+         writing-mode: vertical-lr;
+     }
+
+     div#lab401{
+        z-index:1;
+        position:absolute;
+        top:489px;
+        left: 307px;
+        width: 200px;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+        
+     }
+
+     div#stairs1{
+        z-index:1;
+        position:absolute;
+        top:569px;
+        left: 518px;
+        width: 75px;
+        height: 120px;
+        background-color: rgba(0, 0, 0, 0.497);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+        
+     }
+
+     div#lib{
+        z-index:1;
+        position:absolute;
+        top:307px;
+        left: 604px;
+        width: 382px;
+        height: 382px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: x-large;
+         border-radius: 5px;
+       
+     }
+
+     div#girls{
+        z-index:1;
+        position:absolute;
+        top:195px;
+        left: 856px;
+        width: 130px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+
+     div#seminar2{
+        z-index:1;
+        position:absolute;
+        top:5px;
+        left: 856px;
+        width: 130px;
+        height: 179px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+
+     div#toilet{
+        z-index:1;
+        position:absolute;
+        top:5px;
+        left: 780px;
+        width: 65px;
+        height: 110px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+
+     div#stairs2{
+        z-index:1;
+        position:absolute;
+        top:5px;
+        left: 649px;
+        width: 120px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.497);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+
+     div#seminar1{
+        z-index:1;
+        position:absolute;
+        top:5px;
+        left: 458px;
+        width: 180px;
+        height: 230px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+
+     div#cr41{
+        z-index:1;
+        position:absolute;
+        top:5px;
+        left: 256px;
+        width: 150px;
+        height: 140px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+
+    
+
+     div#lab404{
+        z-index:1;
+        position:absolute;
+        top:156px;
+        left: 256px;
+        width: 150px;
+        height: 140px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+      div#toilet1{
+        z-index:1;
+        position:absolute;
+        top:307px;
+        left: 256px;
+        width: 60px;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px;  
+     }
+
+     div#toilet2{
+        z-index:1;
+        position:absolute;
+        top:376px;
+        left: 326px;
+        width: 80px;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px;  
+  
+     }
+
+     div#lib1{
+        z-index:1;
+        position:absolute;
+        top:307px;
+        left: 417px;
+        width: 176px;
+        height: 134px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: x-large;
+         border-radius: 5px;  
+    
+     }
+
+     div#tutorial{
+        z-index:1;
+        position:absolute;
+        top:126px;
+        left: 710px;
+        width: 100px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.095);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         border-radius: 5px; 
+     }
+
+     div#lab404:hover,div#lab403:hover,div#lab402:hover,div#lab401:hover{
+        background-color: rgba(208, 255, 0, 0.237);
+        
+       
+        
+    }
+
+    div#cr41:hover,div#cr42:hover{
+        background-color: rgba(73,230,73,0.489);
+        
+    }
+
+    div#toilet:hover,div#toilet1:hover,div#toilet2:hover{
+        background-color: rgba(120, 185, 242, 0.47);
+        
+    }
+
+    div#staff:hover{
+     background-color: rgba(206, 89, 89, 0.486);
+     
+    }
+
+    div#tutorial:hover{
+        background-color: blueviolet;
+        
+
+    }
+
+    div#cell:hover,div#girls:hover{
+     background-color: rgba(71, 71, 205, 0.711);
+     
+    }
+
+    div#seminar:hover,div#seminar1:hover{
+     background-color: rgba(71, 71, 205, 0.711);
+     
+    }
+
+    div#lib:hover,div#lib1:hover{
+        background-color: rgb(43, 226, 180);
+        
+    }
+
+    div#first{
+    z-index:1;
+        position:absolute;
+        top:745px;
+        left: 20px;
+        width:20px;
+        height: 20px;
+
+        background-color: rgb(108, 248, 234);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         text-decoration: none;
+         color: black;
+       
+   }
+
+   div#second{
+    z-index:1;
+        position:absolute;
+        top:745px;
+        left: 50px;
+        width: 20px;
+        height: 20px;
+
+        background-color: rgb(108, 248, 234);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         text-decoration: none;
+         color: black;
+   }
+
+   div#third{
+    z-index:1;
+        position:absolute;
+        top:745px;
+        left: 80px;
+        width: 20px;
+        height: 20px;
+
+        background-color: rgb(108, 248, 234);
+        border: 1px solid rgb(0, 0, 0);
+        padding: 5px;
+        margin: 10px;
+
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         text-decoration: none;
+         color: black;
+   }
+
+   div#fourth{
+    z-index:1;
+        position:absolute;
+        top:745px;
+        left: 110px;
+        width: 20px;
+        height: 20px;
+
+        background-color: rgb(108, 248, 234);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         text-decoration: none;
+         color: black;
+   }
+
+   div#fifth{
+    z-index:1;
+        position:absolute;
+        top:745px;
+        left: 140px;
+        width: 20px;
+        height: 20px;
+
+        background-color: rgb(108, 248, 234);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         text-decoration: none;
+         color: black;
+   }
+
+   div#sixth{
+    z-index:1;
+        position:absolute;
+        top:745px;
+        left: 170px;
+        width: 20px;
+        height: 20px;
+
+        background-color: rgb(108, 248, 234);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         text-decoration: none;
+         color: black;
+   }
+
+   div#seventh{
+    z-index:1;
+        position:absolute;
+        top:745px;
+        left: 200px;
+        width: 20px;
+        height: 20px;
+
+        background-color: rgb(108, 248, 234);
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+
+        text-align: center;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        text-wrap: balance;
+         font-size: large;
+         text-decoration: none;
+         color: black;
+   }
+
+   div#heading{
+    position: absolute;
+    top: 710px;
+    left: 15px;
+    
+
+   }
+   #occupy {
+            background-color: #fa7d08;
+            color: #fff;
+            padding: 6px 7px;
+            font-size: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 90px;
+            box-shadow: 0 2px 4px rgba(36, 37, 36, 0.396);
+            position: absolute;
+            left: 90;
+            right: 0;
+            bottom: 0;
+            transition: background-color 0.3s ease;
+            }
+   #occupy:hover {
+            background-color: #ff4b03;
+        }
+   </style>
+</head>
+<body>
+
+    <div id="heading"><h1>4<sup>th</sup></sup>FLOOR</h1></div>
+    <div id="cell">PLACEMENT CELL</div>
+    
+    <div id="lab403">
+        <div>PHYSICS LAB-403
+        </br>
+        <div#lab403 id="displayNamelab403"></div#lab403>
+        </div>
+        <div id="buttons">
+        <button id="occupy" onclick="NameAlertlab403()">Occupy</button> 
+        </div>
+    
+        <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script><!--changes-->
+<script>            
+    document.addEventListener('DOMContentLoaded',function() {
+        const socket= io.connect('http://localhost:3000');
+        const displayContentElement=document.getElementById('displayNamelab403');
+    window.NameAlertlab403=function (){
+        const currentContentlab403 = prompt('Enter division, batch:');
+        
+          if(currentContentlab403 !==null) { document.getElementById('displayNamelab403').innerText = `\n${currentContentlab403}`;
+             document.getElementById('lab403').style.backgroundColor = 'rgb(250, 175, 14)';
+             socket.emit('editContentlab403',currentContentlab403);
+             
+            }
+          if(currentContentlab403 =='') {document.getElementById('displayNamelab403').innerText= 'Vacant';}
+        }
+    
+ 
+    socket.on('updateContentlab403', (content) => {
+        // Adjusted to display the content in the "Occupied by" line
+        if (content !== null) {
+          displayContentElement.innerText = `\n${content}`;
+          document.getElementById('lab403').style.backgroundColor = 'rgb(250, 175, 14)';
+        } if(content=='') {
+             displayContentElement.innerText = 'Vacant';
+             document.getElementById('lab403').style.backgroundColor = 'rgba(25, 252, 108, 0.982)';
+      }
+  });   
+});
+</script>
+    </div>
+    <div id="stairs">STAIRS</div>
+    
+    <div id="lab402">
+        <div>RESEARCH LAB-402
+        </br>
+        <div#lab402 id="displayNamelab402"></div#lab402>
+        </div>
+        <div id="buttons">
+        <button id="occupy" onclick="NameAlertlab402()">Occupy</button> 
+        </div>
+    
+        <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script><!--changes-->
+<script>            
+    document.addEventListener('DOMContentLoaded',function() {
+        const socket= io.connect('http://localhost:3000');
+        const displayContentElement=document.getElementById('displayNamelab402');
+    window.NameAlertlab402=function (){
+        const currentContentlab402 = prompt('Enter division, batch:');
+        
+          if(currentContentlab402 !==null) { document.getElementById('displayNamelab402').innerText = `\n${currentContentlab402}`;
+             document.getElementById('lab402').style.backgroundColor = 'rgb(250, 175, 14)';
+             socket.emit('editContentlab402',currentContentlab402);
+             
+            }
+          if(currentContentlab402 =='') {document.getElementById('displayNamelab402').innerText= 'Vacant';}
+        }
+    
+ 
+    socket.on('updateContentlab402', (content) => {
+        // Adjusted to display the content in the "Occupied by" line
+        if (content !== null) {
+          displayContentElement.innerText = `\n${content}`;
+          document.getElementById('lab402').style.backgroundColor = 'rgb(250, 175, 14)';
+        } if(content=='') {
+             displayContentElement.innerText = 'Vacant';
+             document.getElementById('lab402').style.backgroundColor = 'rgba(25, 252, 108, 0.982)';
+      }
+  });   
+});
+</script>
+    </div>
+    
+    <div id="cr42">
+        <div>CR-42
+        </br>
+        <div#cr42 id="displayNamecr42"></div#cr42>
+        </div>
+        <div id="buttons">
+        <button id="occupy" onclick="NameAlertcr42()">Occupy</button> 
+        </div>
+    
+        <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script><!--changes-->
+<script>
+    
+    document.addEventListener('DOMContentLoaded',function() {
+        const socket= io.connect('http://localhost:3000');
+        const displayContentElement=document.getElementById('displayNamecr42');
+    
+     window.NameAlertcr42=function (){
+        const currentContentcr42 = prompt('Enter name, subject:');
+        
+          if(currentContentcr42!==null) { document.getElementById('displayNamecr42').innerText = `Occupied by\n${currentContentcr42}`;
+             document.getElementById('cr42').style.backgroundColor = 'rgb(250, 175, 14)';
+             socket.emit('editContentcr42',currentContentcr42);
+            //  sessionStorage.setItem('CRcr42Content', currentContent);
+            }
+          if(currentContentcr42==null)  {document.getElementById('displayNamecr42').innerText= 'Vacant';
+                 socket.emit('editContentcr42', null);
+              // Clear the stored content in sessionStorage
+            //   sessionStorage.removeItem('CRcr42Content');
+            }
+        }
+    
+ 
+    socket.on('updateContentcr42', (content) => {
+        // Adjusted to display the content in the "Occupied by" line
+        if (content!== null) {
+          displayContentElement.innerText = `Occupied by\n${content}`;
+          document.getElementById('cr42').style.backgroundColor = 'rgb(250, 175, 14)';
+        } 
+         if(content=='') 
+         {
+             displayContentElement.innerText = 'Vacant';
+             document.getElementById('cr42').style.backgroundColor = 'rgba(25, 252, 108, 0.982)';
+      }
+    });   
+  });
+</script>
+    </div>
+    <div id="staff">STAFF ROOM</div>
+    
+        <div id="lab401">
+            <div>TELEVISION & ANTENNA <BR> LAB-401
+            </br>
+            <div#lab401 id="displayNamelab401"></div#lab401>
+            </div>
+            <div id="buttons">
+            <button id="occupy" onclick="NameAlertlab401()">Occupy</button> 
+            </div>
+        
+            <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script><!--changes-->
+<script>            
+    document.addEventListener('DOMContentLoaded',function() {
+        const socket= io.connect('http://localhost:3000');
+        const displayContentElement=document.getElementById('displayNamelab401');
+    window.NameAlertlab401=function (){
+        const currentContentlab401 = prompt('Enter division, batch:');
+        
+          if(currentContentlab401 !==null) { document.getElementById('displayNamelab401').innerText = `\n${currentContentlab401}`;
+             document.getElementById('lab401').style.backgroundColor = 'rgb(250, 175, 14)';
+             socket.emit('editContentlab401',currentContentlab401);
+             
+            }
+          if(currentContentlab401 =='') {document.getElementById('displayNamelab401').innerText= 'Vacant';}
+        }
+    
+ 
+    socket.on('updateContentlab401', (content) => {
+        // Adjusted to display the content in the "Occupied by" line
+        if (content !== null) {
+          displayContentElement.innerText = `\n${content}`;
+          document.getElementById('lab401').style.backgroundColor = 'rgb(250, 175, 14)';
+        } if(content=='') {
+             displayContentElement.innerText = 'Vacant';
+             document.getElementById('lab401').style.backgroundColor = 'rgba(25, 252, 108, 0.982)';
+      }
+  });   
+});
+</script>
+        </div>
+    <div id="stairs1">STAIRS</div>
+    <div id="lib">LIBRARY</div>
+    <div id="lib1">LIBRARY</div>
+    <div id="girls">GIRLS COMMON ROOM</div>
+    
+    <div id="seminar2">
+        <div>SEMINAR HALL-2
+        </br>
+        <div#seminar id="displayNameseminar2"></div#seminar>
+        </div>
+        <div id="buttons">
+        <button id="occupy" onclick="NameAlertseminar2()">Occupy</button> 
+        </div>
+    
+        <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script><!--changes-->
+<script>
+    
+    document.addEventListener('DOMContentLoaded',function() {
+        const socket= io.connect('http://localhost:3000');
+        const displayContentElement=document.getElementById('displayNameseminar2');
+    
+     window.NameAlertseminar2=function (){
+        const currentContentseminar2 = prompt('Enter name, subject:');
+        
+          if(currentContentseminar2!==null) { document.getElementById('displayNameseminar2').innerText = `Occupied by\n${currentContentseminar2}`;
+             document.getElementById('seminar2').style.backgroundColor = 'rgb(250, 175, 14)';
+             socket.emit('editContentseminar2',currentContentseminar2);
+            //  sessionStorage.setItem('CRseminar2Content', currentContent);
+            }
+          if(currentContentseminar2==null)  {document.getElementById('displayNameseminar2').innerText= 'Vacant';
+                 socket.emit('editContentseminar2', null);
+              // Clear the stored content in sessionStorage
+            //   sessionStorage.removeItem('CRseminar2Content');
+            }
+        }
+    
+ 
+    socket.on('updateContentseminar2', (content) => {
+        // Adjusted to display the content in the "Occupied by" line
+        if (content!== null) {
+          displayContentElement.innerText = `Occupied by\n${content}`;
+          document.getElementById('seminar2').style.backgroundColor = 'rgb(250, 175, 14)';
+        } 
+         if(content=='') 
+         {
+             displayContentElement.innerText = 'Vacant';
+             document.getElementById('seminar2').style.backgroundColor = 'rgba(25, 252, 108, 0.982)';
+      }
+    });   
+  });
+</script>
+    </div>
+    <div id="toilet">TOILET</div>
+    <div id="stairs2">STAIRS</div>
+    <div id="tutorial">TUTORIAL ROOM NO.2</div>
+    
+    <div id="seminar1">
+        <div>SEMINAR HALL-1
+        </br>
+        <div#seminar1 id="displayNameseminar1"></div#seminar1>
+        </div>
+        <div id="buttons">
+        <button id="occupy" onclick="NameAlertseminar1()">Occupy</button> 
+        </div>
+    
+        <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script><!--changes-->
+<script>
+    
+    document.addEventListener('DOMContentLoaded',function() {
+        const socket= io.connect('http://localhost:3000');
+        const displayContentElement=document.getElementById('displayNameseminar1');
+    
+     window.NameAlertseminar1=function (){
+        const currentContentseminar1 = prompt('Enter name, subject:');
+        
+          if(currentContentseminar1!==null) { document.getElementById('displayNameseminar1').innerText = `Occupied by\n${currentContentseminar1}`;
+             document.getElementById('seminar1').style.backgroundColor = 'rgb(250, 175, 14)';
+             socket.emit('editContentseminar1',currentContentseminar1);
+            //  sessionStorage.setItem('CRseminar1Content', currentContent);
+            }
+          if(currentContentseminar1==null)  {document.getElementById('displayNameseminar1').innerText= 'Vacant';
+                 socket.emit('editContentseminar1', null);
+              // Clear the stored content in sessionStorage
+            //   sessionStorage.removeItem('CRseminar1Content');
+            }
+        }
+    
+ 
+    socket.on('updateContentseminar1', (content) => {
+        // Adjusted to display the content in the "Occupied by" line
+        if (content!== null) {
+          displayContentElement.innerText = `Occupied by\n${content}`;
+          document.getElementById('seminar1').style.backgroundColor = 'rgb(250, 175, 14)';
+        } 
+         if(content=='') 
+         {
+             displayContentElement.innerText = 'Vacant';
+             document.getElementById('seminar1').style.backgroundColor = 'rgba(25, 252, 108, 0.982)';
+      }
+    });   
+  });
+</script>
+    </div>
+    
+    <div id="cr41">
+        <div>CR-41
+        </br>
+        <div#cr41 id="displayNamecr41"></div#cr41>
+        </div>
+        <div id="buttons">
+        <button id="occupy" onclick="NameAlertcr41()">Occupy</button> 
+        </div>
+    
+        <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script><!--changes-->
+<script>
+    
+    document.addEventListener('DOMContentLoaded',function() {
+        const socket= io.connect('http://localhost:3000');
+        const displayContentElement=document.getElementById('displayNamecr41');
+    
+     window.NameAlertcr41=function (){
+        const currentContentcr41 = prompt('Enter name, subject:');
+        
+          if(currentContentcr41!==null) { document.getElementById('displayNamecr41').innerText = `Occupied by\n${currentContentcr41}`;
+             document.getElementById('cr41').style.backgroundColor = 'rgb(250, 175, 14)';
+             socket.emit('editContentcr41',currentContentcr41);
+            //  sessionStorage.setItem('CRcr41Content', currentContent);
+            }
+          if(currentContentcr41==null)  {document.getElementById('displayNamecr41').innerText= 'Vacant';
+                 socket.emit('editContentcr41', null);
+              // Clear the stored content in sessionStorage
+            //   sessionStorage.removeItem('CRcr41Content');
+            }
+        }
+    
+ 
+    socket.on('updateContentcr41', (content) => {
+        // Adjusted to display the content in the "Occupied by" line
+        if (content!== null) {
+          displayContentElement.innerText = `Occupied by\n${content}`;
+          document.getElementById('cr41').style.backgroundColor = 'rgb(250, 175, 14)';
+        } 
+         if(content=='') 
+         {
+             displayContentElement.innerText = 'Vacant';
+             document.getElementById('cr41').style.backgroundColor = 'rgba(25, 252, 108, 0.982)';
+      }
+    });   
+  });
+</script>
+    </div>
+    
+        <div id="lab404">
+            <div>DIGITAL DESIGN <BR>LAB-404
+            </br>
+            <div#lab404 id="displayNamelab404"></div#lab404>
+            </div>
+            <div id="buttons">
+            <button id="occupy" onclick="NameAlertlab404()">Occupy</button> 
+            </div>
+        
+            <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script><!--changes-->
+<script>            
+    document.addEventListener('DOMContentLoaded',function() {
+        const socket= io.connect('http://localhost:3000');
+        const displayContentElement=document.getElementById('displayNamelab404');
+    window.NameAlertlab404=function (){
+        const currentContentlab404 = prompt('Enter division, batch:');
+        
+          if(currentContentlab404 !==null) { document.getElementById('displayNamelab404').innerText = `\n${currentContentlab404}`;
+             document.getElementById('lab404').style.backgroundColor = 'rgb(250, 175, 14)';
+             socket.emit('editContentlab404',currentContentlab404);
+             
+            }
+          if(currentContentlab404 =='') {document.getElementById('displayNamelab404').innerText= 'Vacant';}
+        }
+    
+ 
+    socket.on('updateContentlab404', (content) => {
+        // Adjusted to display the content in the "Occupied by" line
+        if (content !== null) {
+          displayContentElement.innerText = `\n${content}`;
+          document.getElementById('lab404').style.backgroundColor = 'rgb(250, 175, 14)';
+        } if(content=='') {
+             displayContentElement.innerText = 'Vacant';
+             document.getElementById('lab404').style.backgroundColor = 'rgba(25, 252, 108, 0.982)';
+      }
+  });   
+});
+</script>
+        </div>
+    <div id="toilet1">TOILET</div>
+    <div id="toilet2">TOILET</div>
+    <div id=""></div>
+    
+
+    <div id="first">1</div>
+    <div id="second">2</div>
+    <div id="third">3</div>
+    <div id="fourth">4</div>
+    <div id="fifth">5</div>
+    <div id="sixth">6</div>
+    <div id="seventh">7</div>
+
+    <a href="FLOOR1.html"><div id="first">1</div></a>
+    <a href="2FLOOR.html"> <div id="second">2</div></a>
+    <a href="3FLOOR.html"> <div id="third">3</div></a>
+    <a href="4FLOOR.html"> <div id="fourth">4</div></a>
+    <a href="5FLOOR.html"> <div id="fifth">5</div></a>
+    <a href="6FLOOR.html"><div id="sixth">6</div></a>
+    <a href="7FLOOR.html"> <div id="seventh">7</div></a>
+   
+</body>
+</html>
